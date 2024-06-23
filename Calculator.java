@@ -25,8 +25,13 @@ public class Calculator {
             System.out.println(num1 * num2);
         }
         else if (operation == '/'){
-            System.out.print("The output is : ");
-            System.out.println(num1 / num2);
+            if (num2 == 0){
+                System.out.println("Divide by zero problem");
+            }
+            else {
+                System.out.print("The output is : ");
+                System.out.println(num1 / num2);
+            }
         }
     }
 }
