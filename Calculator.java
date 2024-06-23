@@ -20,5 +20,13 @@ public class Calculator {
             System.out.print("The output is : ");
             System.out.println(num1 - num2);
         }
+        else if (operation == '*'){
+            System.out.print("The output is : ");
+            System.out.println(num1 * num2);
+        }
+        else if (operation == '/'){
+            System.out.print("The output is : ");
+            System.out.println(num1 / num2);
+        }
     }
 }
